@@ -17,6 +17,54 @@ model User {
   role          Role      @default(USER)
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
+
+  assignee    Task[]    @relation("assigneeTask")
+  project     Task[]    @relation("projectTask")
+  Project Project[]     @relation("ownerTask")
+  UserProject UserProject[] @relation("userProject")
+}
+
+model Task {
+  id            String    @id @default(uuid())
+  title         String
+  description   String
+  status        String
+  dueDate       DateTime
+  projectId     String    
+  assigneeId    String
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  assignee      User      @relation("assigneeTask", fields: [assigneeId], references: [id])
+  project       Project   @relation("projectTask", fields: [projectId], references: [id])
+
+
+  User User[] @relation("projectTask")
+}
+
+model Project {
+  id            String    @id @default(uuid())
+  title         String
+  description   String
+  status        String
+  deadline      DateTime
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  ownerId       String    
+  
+  
+  owner         User      @relation("ownerTask", fields: [ownerId], references: [id])
+  project       Task[]    @relation("projectTask")
+  userProject   UserProject[] @relation("projectUser")
+}
+
+model UserProject {
+  id        String    @id @default(uuid())
+  userId    String    
+  projectId String
+  
+  user     User      @relation("userProject", fields: [userId], references: [id])
+  project  Project   @relation("projectUser", fields: [projectId], references: [id])
 }
 
 enum Role {

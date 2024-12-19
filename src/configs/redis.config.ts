@@ -6,6 +6,8 @@ const redisConfig: RedisClientOptions = {
     host: env.REDIS.HOST,
     port: +env.REDIS.PORT,
   },
+  // username: env.REDIS.USERNAME,
+  // password: env.REDIS.PASSWORD,
 }
 
 const redisClient = createClient(redisConfig)

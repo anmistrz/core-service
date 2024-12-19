@@ -1,2 +1,28 @@
 2024-12-17 16:38:13:3813 [31merror[39m:
 [31mExpected double-quoted property name in JSON at position 38 (line 4 column 1)[39m
+2024-12-18 13:20:04:204 [31merror[39m:
+[31m"role" is not allowed[39m
+2024-12-18 13:21:36:2136 [31merror[39m:
+[31mEmail/Password incorrect[39m
+2024-12-18 13:21:47:2147 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:23:31:2331 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:24:02:242 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:28:35:2835 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:29:55:2955 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:30:53:3053 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:32:58:3258 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:33:00:330 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:33:55:3355 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:33:57:3357 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:33:58:3358 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m

@@ -9,6 +9,9 @@ import { JwtPayload } from "jsonwebtoken"
 const login = async (data: Pick<IUser, "email" | "password">) => {
   const { email, password } = data
 
+  console.log("email", email)
+  console.log("password", password)
+
   const user = await prisma.user.findFirst({
     where: {
       email,
@@ -20,6 +23,8 @@ const login = async (data: Pick<IUser, "email" | "password">) => {
       password: true,
     },
   })
+
+  console.log("user", user)
 
   if (!user) {
     throw new CustomError(400, "User not found")

@@ -10,5 +10,7 @@ export interface IEnv {
   REDIS: {
     HOST: string
     PORT: string | number
+    USERNAME: string
+    PASSWORD: string
   }
 }

@@ -7,12 +7,15 @@ import { Request, Response, NextFunction } from "express"
 const login = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const { error, value } = VLoginSchema.validate(req.body)
+    console.log("error", error)
+    console.log("value", value)
     if (error) {
       throw new CustomError(400, error.message)
     }
     const user = await SAuth.login(value)
     res.json(formatResponse("T", "Login Success", user))
   } catch (error) {
+    console.log("throw error", error)
     next(error)
   }
 }

@@ -11,3 +11,111 @@
 [32m[WINSTON] Request - POST /auth/login[39m
 2024-12-17 16:38:13:3813 [31merror[39m:
 [31mExpected double-quoted property name in JSON at position 38 (line 4 column 1)[39m
+2024-12-18 13:20:04:204 [32minfo[39m:
+[32m[WINSTON] Request - POST /auth/register[39m
+2024-12-18 13:20:04:204 [31merror[39m:
+[31m"role" is not allowed[39m
+2024-12-18 13:21:27:2127 [32minfo[39m:
+[32m[WINSTON] Request - POST /auth/register[39m
+2024-12-18 13:21:35:2135 [32minfo[39m:
+[32m[WINSTON] Request - POST /auth/login[39m
+2024-12-18 13:21:36:2136 [31merror[39m:
+[31mEmail/Password incorrect[39m
+2024-12-18 13:21:47:2147 [32minfo[39m:
+[32m[WINSTON] Request - POST /auth/login[39m
+2024-12-18 13:21:47:2147 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:23:31:2331 [32minfo[39m:
+[32m[WINSTON] Request - POST /auth/login[39m
+2024-12-18 13:23:31:2331 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:24:02:242 [32minfo[39m:
+[32m[WINSTON] Request - POST /auth/login[39m
+2024-12-18 13:24:02:242 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:28:35:2835 [32minfo[39m:
+[32m[WINSTON] Request - POST /auth/login[39m
+2024-12-18 13:28:35:2835 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:29:55:2955 [32minfo[39m:
+[32m[WINSTON] Request - POST /auth/login[39m
+2024-12-18 13:29:55:2955 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:30:53:3053 [32minfo[39m:
+[32m[WINSTON] Request - POST /auth/login[39m
+2024-12-18 13:30:53:3053 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:32:58:3258 [32minfo[39m:
+[32m[WINSTON] Request - POST /auth/login[39m
+2024-12-18 13:32:58:3258 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:33:00:330 [32minfo[39m:
+[32m[WINSTON] Request - POST /auth/login[39m
+2024-12-18 13:33:00:330 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:33:55:3355 [32minfo[39m:
+[32m[WINSTON] Request - POST /auth/login[39m
+2024-12-18 13:33:55:3355 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:33:57:3357 [32minfo[39m:
+[32m[WINSTON] Request - POST /auth/login[39m
+2024-12-18 13:33:57:3357 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:33:58:3358 [32minfo[39m:
+[32m[WINSTON] Request - POST /auth/login[39m
+2024-12-18 13:33:58:3358 [31merror[39m:
+[31msecretOrPrivateKey must have a value[39m
+2024-12-18 13:35:14:3514 [32minfo[39m:
+[32m[WINSTON] Request - POST /auth/login[39m
+2024-12-18 13:35:34:3534 [32minfo[39m:
+[32m[WINSTON] Request - POST /auth/login[39m
+2024-12-18 14:40:58:4058 [32minfo[39m:
+[32m[WINSTON] Request - POST /auth/login[39m
+2024-12-18 14:41:11:4111 [32minfo[39m:
+[32m[WINSTON] Request - POST /auth/login[39m
+2024-12-18 15:11:13:1113 [32minfo[39m:
+[32m[WINSTON] Request - GET /scheduler/start[39m
+2024-12-18 15:11:17:1117 [32minfo[39m:
+[32m[WINSTON] Request - GET /scheduler/start[39m
+2024-12-18 15:11:41:1141 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-18 15:12:00:120 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-18 15:12:34:1234 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-18 15:13:51:1351 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-18 15:15:44:1544 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-18 15:15:51:1551 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-18 15:16:30:1630 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-18 15:16:56:1656 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-18 15:17:34:1734 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-18 15:18:28:1828 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-18 15:18:48:1848 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-18 15:19:29:1929 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-18 15:20:55:2055 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-18 15:21:12:2112 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-18 15:22:16:2216 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-18 15:26:16:2616 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-18 15:26:38:2638 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-18 15:27:19:2719 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-18 15:34:50:3450 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-18 15:35:22:3522 [32minfo[39m:
+[32m[WINSTON] Request - POST /scheduler/start[39m
+2024-12-19 13:19:10:1910 [32minfo[39m:
+[32m[WINSTON] Request - GET /[39m
